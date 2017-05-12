@@ -51,7 +51,7 @@ public class BarServlet extends HttpServlet {
         dataset.addValue(5,  "2",  "142"); 
         
  JFreeChart chart = ChartFactory.createBarChart(
-            "Bar Chart Demo 3",       // chart title
+            "Valores Obras",       // chart title
             "Category",               // domain axis label
             "Value",                  // range axis label
             dataset,                  // data
